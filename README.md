@@ -11,8 +11,11 @@ Este repositório contém uma aplicação web desenvolvida como parte do desafio
 
 ## Tecnologias Utilizadas
 #### HTML: Estrutura e layout da página.
-#### CSS: Estilos visuais e design responsivo.
+#### CSS: Estilos visuais.
 #### JavaScript: Lógica da aplicação, incluindo adição de nomes e sorteio aleatório
+
+## Link de uso:
+[Amigo Secreto](https://juliocoronetti.github.io/challenge-amigo-secreto/)
 
 ### Licença
 Este projeto está licenciado sob a Licença MIT.
