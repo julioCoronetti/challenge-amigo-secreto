@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #ffbe54;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #ffbe54;
+    --color-button-hover: #faca7d;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -54,15 +54,15 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-size: 5rem;
+    font-family: "Honk", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Comic Sans MS", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -100,14 +100,14 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Honk", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de botão */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -116,27 +116,28 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     border-radius: 0 25px 25px 0;
+    transition: 0.2s;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #6c84ff;
 }
 
 /* Listas */
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 18px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #ff3dae;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +160,16 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+span {
+    font-size: 3rem;
+    font-family: "Honk", serif;
 }
