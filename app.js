@@ -25,10 +25,10 @@ const sortearAmigo = () => {
         let random = parseInt(Math.random() * amigos.length + 1);
         li.innerHTML = `O amigo sorteado é: <span>${amigos[random - 1]}</span>`;
         resultado.appendChild(li);
+        amigos = [];
     } catch (erro) {
         alert(erro);
     }
-
 
 }
 
