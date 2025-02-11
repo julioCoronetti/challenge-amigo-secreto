@@ -21,6 +21,7 @@ const sortearAmigo = () => {
 
         adicionarNaTela(amigo);
         let resultado = document.querySelector("#resultado");
+        resultado.innerHTML = "";
         let li = document.createElement("li");
         let random = parseInt(Math.random() * amigos.length + 1);
         li.innerHTML = `O amigo sorteado é: <span>${amigos[random - 1]}</span>`;
